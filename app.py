@@ -82,4 +82,4 @@ cap.release()
 if blink_detected:
     status_placeholder.markdown("### ✅ Verification Successful!")
 else:
-    status_placeholder.markdown("### ❌ Verification Failed. Please try again.")
+    status_placeholder.markdown("### ❌ Verification Failed. Please try again.") 
