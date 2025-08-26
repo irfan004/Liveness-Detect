@@ -1,16 +1,9 @@
-import subprocess, sys
-
-# Ensure mediapipe is installed (from GitHub, not PyPI)
-try:
-    import mediapipe as mp
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "git+https://github.com/google/mediapipe.git"])
-    import mediapipe as mp
 import streamlit as st
 import cv2
 import mediapipe as mp
 import time
 import numpy as np
+
 
 st.set_page_config(page_title="Blink Verification 👁️", layout="centered")
 st.title("Blink Verification Demo 👁️")
